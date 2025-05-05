@@ -3,7 +3,7 @@ def solution(numbers,n):
     
     for i in numbers:
         if add <= n:
-            add += int(i)
+            add += i
         else:
             return add
     return add
